@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+nav {
+  position: relative;
+  left: 75%;
+  font-size: 18px;
+  bottom: 40px;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  z-index: 1;
+  position: fixed;
+  left: 550px;
+  bottom: 355px;
+}
+
+img {
+  object-fit: cover;
+  width: 200px;
+}
+
+header {
+  background-color: #C19A6B;
+  color: #fff;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  padding-top: 80px;
+}
+
+#hero {
+  background-color: #f4f4f4;
+  padding: 100px 0;
+}
+
+#hero h2 {
+  margin: 0;
+}
+
+#about {
+  padding: 50px 0;
+}
+
+#portfolio {
+  padding: 50px 0;
+}
+
+#portfolio .portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#portfolio .portfolio-items .portfolio-item {
+  flex: 0 1 calc(33.33% - 20px);
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #C19A6B;
+  border-radius: 5px;
+}
+
+#portfolio .portfolio-items .portfolio-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+#portfolio .portfolio-items .portfolio-item h3 {
+  margin: 10px 0;
+}
+
+#portfolio .portfolio-items .portfolio-item p {
+  color: #C19A6B;
+}
+
+footer {
+  background-color: #C19A6B;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.protifolio-logo {
+  position: fixed;
+  top: 20px;
+  z-index: 1;
+  left: 126px;
+}
+
+a {
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
